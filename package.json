@@ -1,0 +1,30 @@
+{
+  "name": "visual-forge-fonts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Font packages for Visual Forge MCP - WE DO NOT OWN THESE FONTS",
+  "author": "Michel Abboud",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelabboud/visual-forge-fonts.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "download": "bash scripts/download-fonts.sh",
+    "publish:minimal": "cd packages/minimal && npm publish --access public",
+    "publish:standard": "cd packages/standard && npm publish --access public",
+    "publish:full": "cd packages/full && npm publish --access public",
+    "publish:code": "cd packages/code && npm publish --access public",
+    "publish:all": "npm run publish:minimal && npm run publish:standard && npm run publish:full && npm run publish:code"
+  },
+  "keywords": [
+    "fonts",
+    "typography",
+    "visual-forge",
+    "pdf",
+    "typst"
+  ]
+}
