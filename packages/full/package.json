@@ -1,7 +1,7 @@
 {
   "name": "@michelabboud/visual-forge-fonts-full",
-  "version": "1.0.0",
-  "description": "Complete fonts for Visual Forge MCP - Includes standard + 25 more families",
+  "version": "1.0.1",
+  "description": "Complete fonts for Visual Forge MCP - Extends standard with 24 display and specialty fonts",
   "keywords": ["fonts", "typography", "pdf", "typst", "visual-forge"],
   "author": "Michel Abboud",
   "license": "SEE LICENSE IN LICENSE",

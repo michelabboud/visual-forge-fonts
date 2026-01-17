@@ -53,7 +53,6 @@ function getOwnFontFamilies() {
     'Roboto',
     'Open Sans',
     'Lato',
-    'Fira Code',
     'Oswald',
     'Montserrat'
   ];
@@ -78,7 +77,7 @@ function getAllFontFamilies() {
 function getFontInfo() {
   return {
     bundle: 'standard',
-    version: '1.0.0',
+    version: '1.0.1',
     ownPath: getOwnFontsPath(),
     allPaths: getAllFontPaths(),
     ownFamilies: getOwnFontFamilies(),
@@ -93,7 +92,6 @@ function getFontInfo() {
       { name: 'Roboto', type: 'sans-serif', license: 'Apache 2.0', creator: 'Google' },
       { name: 'Open Sans', type: 'sans-serif', license: 'OFL', creator: 'Steve Matteson' },
       { name: 'Lato', type: 'sans-serif', license: 'OFL', creator: 'Łukasz Dziedzic' },
-      { name: 'Fira Code', type: 'monospace', license: 'OFL', creator: 'Nikita Prokopov' },
       { name: 'Oswald', type: 'display', license: 'OFL', creator: 'Vernon Adams' },
       { name: 'Montserrat', type: 'sans-serif', license: 'OFL', creator: 'Julieta Ulanovsky' }
     ]

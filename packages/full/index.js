@@ -94,7 +94,7 @@ function getAllFontFamilies() {
 function getFontInfo() {
   return {
     bundle: 'full',
-    version: '1.0.0',
+    version: '1.0.1',
     ownPath: getOwnFontsPath(),
     allPaths: getAllFontPaths(),
     ownFamilies: getOwnFontFamilies(),

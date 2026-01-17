@@ -1,7 +1,7 @@
 {
   "name": "@michelabboud/visual-forge-fonts-standard",
-  "version": "1.0.0",
-  "description": "Standard fonts for Visual Forge MCP - Includes minimal + 11 more families",
+  "version": "1.0.1",
+  "description": "Standard fonts for Visual Forge MCP - Extends minimal with 10 document fonts",
   "keywords": ["fonts", "typography", "pdf", "typst", "visual-forge"],
   "author": "Michel Abboud",
   "license": "SEE LICENSE IN LICENSE",
