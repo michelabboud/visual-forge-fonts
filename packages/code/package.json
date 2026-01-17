@@ -1,8 +1,15 @@
 {
   "name": "@michelabboud/visual-forge-fonts-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monospace/coding fonts for Visual Forge MCP - 12 programming fonts (standalone)",
-  "keywords": ["fonts", "monospace", "coding", "programming", "typst", "visual-forge"],
+  "keywords": [
+    "fonts",
+    "monospace",
+    "coding",
+    "programming",
+    "typst",
+    "visual-forge"
+  ],
   "author": "Michel Abboud",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
@@ -12,7 +19,17 @@
   },
   "main": "index.js",
   "types": "index.d.ts",
-  "files": ["fonts", "licenses", "index.js", "index.d.ts", "DISCLAIMER.md"],
-  "scripts": { "postinstall": "node postinstall.js || true" },
-  "engines": { "node": ">=24.0.0" }
+  "files": [
+    "fonts",
+    "licenses",
+    "index.js",
+    "index.d.ts",
+    "DISCLAIMER.md"
+  ],
+  "scripts": {
+    "postinstall": "node postinstall.js || true"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  }
 }
