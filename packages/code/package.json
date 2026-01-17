@@ -1,7 +1,7 @@
 {
   "name": "@michelabboud/visual-forge-fonts-code",
   "version": "1.0.0",
-  "description": "Monospace/coding fonts for Visual Forge MCP (12 programming fonts)",
+  "description": "Monospace/coding fonts for Visual Forge MCP - 12 programming fonts (standalone)",
   "keywords": ["fonts", "monospace", "coding", "programming", "typst", "visual-forge"],
   "author": "Michel Abboud",
   "license": "SEE LICENSE IN LICENSE",

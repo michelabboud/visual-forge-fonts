@@ -1,7 +1,7 @@
 {
   "name": "@michelabboud/visual-forge-fonts-standard",
   "version": "1.0.0",
-  "description": "Standard font bundle for Visual Forge MCP (20 popular font families)",
+  "description": "Standard fonts for Visual Forge MCP - Includes minimal + 11 more families",
   "keywords": ["fonts", "typography", "pdf", "typst", "visual-forge"],
   "author": "Michel Abboud",
   "license": "SEE LICENSE IN LICENSE",
@@ -14,5 +14,8 @@
   "types": "index.d.ts",
   "files": ["fonts", "licenses", "index.js", "index.d.ts", "DISCLAIMER.md"],
   "scripts": { "postinstall": "node postinstall.js || true" },
-  "engines": { "node": ">=24.0.0" }
+  "engines": { "node": ">=24.0.0" },
+  "dependencies": {
+    "@michelabboud/visual-forge-fonts-minimal": "^1.0.0"
+  }
 }

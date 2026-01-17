@@ -1,17 +1,8 @@
 {
   "name": "@michelabboud/visual-forge-fonts-minimal",
   "version": "1.0.0",
-  "description": "Essential fonts for Visual Forge MCP PDF generation (Liberation, Inter, JetBrains Mono)",
-  "keywords": [
-    "fonts",
-    "typography",
-    "pdf",
-    "typst",
-    "visual-forge",
-    "liberation",
-    "inter",
-    "jetbrains-mono"
-  ],
+  "description": "Essential fonts for Visual Forge MCP - Base package (Liberation, Inter, JetBrains Mono)",
+  "keywords": ["fonts", "typography", "pdf", "typst", "visual-forge"],
   "author": "Michel Abboud",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
@@ -19,23 +10,9 @@
     "url": "git+https://github.com/michelabboud/visual-forge-fonts.git",
     "directory": "packages/minimal"
   },
-  "homepage": "https://github.com/michelabboud/visual-forge-fonts#readme",
-  "bugs": {
-    "url": "https://github.com/michelabboud/visual-forge-fonts/issues"
-  },
   "main": "index.js",
   "types": "index.d.ts",
-  "files": [
-    "fonts",
-    "licenses",
-    "index.js",
-    "index.d.ts",
-    "DISCLAIMER.md"
-  ],
-  "scripts": {
-    "postinstall": "node postinstall.js || true"
-  },
-  "engines": {
-    "node": ">=24.0.0"
-  }
+  "files": ["fonts", "licenses", "index.js", "index.d.ts", "DISCLAIMER.md"],
+  "scripts": { "postinstall": "node postinstall.js || true" },
+  "engines": { "node": ">=24.0.0" }
 }
